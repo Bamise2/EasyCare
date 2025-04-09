@@ -337,7 +337,7 @@ ul {
 
 .about-image img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     transition: transform 0.5s ease;
 }
@@ -459,81 +459,6 @@ ul {
     opacity: 0.8;
     font-size: 0.95rem;
 }
-
-/* Team Section */
-/* .team-section {
-    text-align: center;
-}
-
-.team-section h3 {
-    font-size: 2rem;
-    margin-bottom: 50px;
-    position: relative;
-    padding-bottom: 15px;
-    display: inline-block;
-}
-
-.team-section h3::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60px;
-    height: 3px;
-    background-color: var(--orange);
-}
-
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-}
-
-.team-member {
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
-    background-color: var(--navy);
-}
-
-.team-member:hover {
-    transform: translateY(-10px);
-}
-
-.member-image {
-    position: relative;
-    overflow: hidden;
-}
-
-.member-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.5s ease;
-}
-
-.team-member:hover .member-image img {
-    transform: scale(1.1);
-}
-
-.member-info {
-    padding: 20px;
-    text-align: center;
-}
-
-.member-info h4 {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
-    color: var(--white);
-}
-
-.member-info p {
-    font-size: 0.9rem;
-    color: var(--orange);
-} */
 
 
 /* Services Section */
