@@ -54,6 +54,7 @@ ul {
   list-style: none;
 }
 
+
 .section-header {
   text-align: center;
   margin-bottom: 60px;
@@ -178,6 +179,8 @@ ul {
   position: relative;
 }
 
+
+
 .nav-link::after {
   content: '';
   position: absolute;
@@ -200,7 +203,7 @@ ul {
 .contact-btn {
   background-color: var(--orange);
   padding: 10px 20px;
-  border-radius: 50px;
+  border-radius: 17px;
   color: var(--white);
   transition: background-color 0.3s ease;
 }
