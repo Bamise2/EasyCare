@@ -38,7 +38,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Close mobile menu when clicking on a nav link
     const navLinks = document.querySelectorAll('.nav-link');
+    const navContact = document.querySelectorAll('.contact-btn');
     navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (navMenu && navMenu.classList.contains('active') && menuToggle) {
+                menuToggle.click();
+            }
+        });
+    });
+
+    navContact.forEach(link => {
         link.addEventListener('click', () => {
             if (navMenu && navMenu.classList.contains('active') && menuToggle) {
                 menuToggle.click();
