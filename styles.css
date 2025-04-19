@@ -1749,6 +1749,36 @@ ul {
 
 /* Responsive Styles */
 @media (max-width: 992px) {
+  
+  .navbar .container{
+    border-radius: 0px;
+    background-color: transparent;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    flex-direction: column;
+    background-color: var(--navy);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 20px var(--shadow-light);
+    padding: 20px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu li {
+    margin: 15px 0;
+  }
   .hero .container {
     flex-direction: column;
     grid-template-columns: 1fr;
@@ -1799,30 +1829,7 @@ ul {
     font-size: 2rem;
   }
 
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-menu {
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    flex-direction: column;
-    background-color: var(--navy);
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 10px 20px var(--shadow-light);
-    padding: 20px 0;
-  }
-
-  .nav-menu.active {
-    left: 0;
-  }
-
-  .nav-menu li {
-    margin: 15px 0;
-  }
+  
 
   .values-container {
     grid-template-columns: 1fr;
